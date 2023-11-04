@@ -57,3 +57,39 @@ for i in chenn:
     b+=1
 chenn+=str(b)
 print(chenn+"\n")
+
+#list #1
+listeeleman2=[]
+n=input("antre yon nonb pou entèval lis la")
+for i in range(int(n)+1):
+    if i%2==0:
+        listeeleman2.append(i)
+print(listeeleman2,"\n")
+#2
+for index, i in enumerate (listeeleman2):
+    listeeleman2[index]=str(i)
+print(listeeleman2 ,"\n")
+##3
+print(lischenn,"\n")
+for index,i in enumerate(lischenn):
+    lischenn[index]=i.upper()
+print(lischenn,"\n") 
+# #4
+lischenn22=[1,2,3,4,5,6,7,8,9,10,11,12,13]
+print(lischenn22,"\n")
+lischenn223=[]
+for index,i in enumerate(lischenn22):
+    if index % 3==0:
+        lischenn223.append(lischenn22[index])
+print(lischenn223,"\n") 
+# #5
+print(lischenn22,"\n")
+lischenn224=[]
+for i in range(0, len(lischenn22), 3):
+    lischenn224.append(tuple(lischenn22[i:i+3]))
+print(lischenn224,"\n")
+##6
+lisdoublon=[1,1,2,2,3,3,4,4,5,6,6,7,7]
+lissandoublon=set(lisdoublon)
+print(lissandoublon)
+##7
