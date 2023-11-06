@@ -63,7 +63,7 @@ n=input("antre yon nonb pou entèval lis la")
 for i in range(int(n)+1):
     if i%2==0:
         listeeleman2.append(i)
-print("lis eleman ki divizib pa 2\n"+listeeleman2,"\n")
+print("lis eleman ki divizib pa 2\n",listeeleman2,"\n")
 #2
 for index, i in enumerate (listeeleman2):
     listeeleman2[index]=str(i)
@@ -106,7 +106,7 @@ lis4=[]
 for i in lis1:
     if i not in lis2:
         lis4.append(i)
-print("eleman distenge lis yo\n"lis4,"\n")
+print("eleman distenge lis yo\n",lis4,"\n")
 ##9
 dik={'wenso':17,'jean':23,'alseillle':22,'esih':88}
 liskle=[]
@@ -114,7 +114,7 @@ lisele=[]
 for key,i in dik.items():
     liskle.append(key)
     lisele.append(i)
-print("lis eleman yo\n"lisele,"lis kle yo\n",liskle,"\n")
+print("lis eleman yo\n",lisele,"lis kle yo\n",liskle,"\n")
 ##10
 li1=[1,2,3,4,5,6]
 li=[2,4,6,8,10,12]
